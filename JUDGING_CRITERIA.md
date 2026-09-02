@@ -1,161 +1,186 @@
-Qiskit Fall Fest Hackathon Judging Criteria
+# 🏆 Judging Criteria
 
-Total: 100 points + 10 bonus points
+The Qiskit Fall Fest Nairobi 2026 Hackathon is an **individual, submission-based challenge**.
 
-Criteria	Points	What is assessed
-Challenge Completion	40	Does the submitted solution successfully solve the assigned challenge?
-Quantum Understanding	25	Does the submission demonstrate understanding of the quantum concepts involved?
-Code & Qiskit Implementation	15	Is the solution correctly implemented using Qiskit?
-Problem Solving & Experimentation	10	Does the submission show evidence of testing, iteration and troubleshooting?
-Documentation & Explanation	10	Does the participant clearly explain their approach and results?
-Stretch Challenge	+10	Has the participant gone beyond the core requirements?
-Maximum	110	100 base + 10 bonus
-1. Challenge Completion — 40 Points
+There will be **no presentations or live demos**. Submissions will be evaluated based on the criteria below.
 
-The most important criterion.
+## Scoring
 
-Judges assess whether the participant has successfully completed the required objectives of their assigned challenge.
+**Maximum: 110 points**
 
-36–40: Fully functional solution that satisfies all requirements.
+| Criteria                          |  Points |
+| --------------------------------- | ------: |
+| Challenge Completion              |      40 |
+| Quantum Understanding             |      25 |
+| Qiskit Implementation             |      15 |
+| Problem Solving & Experimentation |      10 |
+| Documentation & Explanation       |      10 |
+| 🚀 Stretch Challenge              | **+10** |
+| **Total**                         | **110** |
 
-28–35: Mostly complete, with minor issues.
+---
 
-20–27: Partially complete but demonstrates substantial progress.
+## 1. Challenge Completion — 40 Points
 
-10–19: Limited implementation.
+How successfully does the submission solve the assigned challenge?
 
-0–9: Minimal or non-functional solution.
+| Score | Description                                        |
+| ----: | -------------------------------------------------- |
+| 36–40 | Fully functional solution meeting all requirements |
+| 28–35 | Mostly complete with minor issues                  |
+| 20–27 | Partially complete with substantial progress       |
+| 10–19 | Limited implementation                             |
+|   0–9 | Minimal or non-functional solution                 |
 
-2. Quantum Understanding — 25 Points
+---
 
-Participants don't need advanced quantum physics. Judges should assess whether they understand the concepts relevant to their challenge.
+## 2. Quantum Understanding — 25 Points
 
-For example:
+How well does the participant demonstrate an understanding of the quantum concepts used?
 
-Why is an H-gate being used?
-What does superposition mean?
-Why are multiple qubits required?
-What does measurement do?
-Why does the circuit produce the observed results?
-What role does entanglement play?
+Judges may consider:
 
-21–25: Excellent conceptual understanding.
+* Understanding of the quantum circuit
+* Appropriate use of quantum gates
+* Understanding of measurement and probability
+* Understanding of relevant concepts such as superposition or entanglement
+* Ability to explain why the solution works
 
-16–20: Good understanding with minor gaps.
+| Score | Description                        |
+| ----: | ---------------------------------- |
+| 21–25 | Excellent understanding            |
+| 16–20 | Good understanding with minor gaps |
+| 10–15 | Basic understanding                |
+|   1–9 | Limited understanding              |
+|     0 | No demonstrated understanding      |
 
-10–15: Basic understanding.
+> Advanced quantum mathematics is **not required**. Participants are judged on their understanding of the concepts relevant to their challenge.
 
-1–9: Limited understanding.
+---
 
-0: No demonstrated understanding.
+## 3. Qiskit Implementation — 15 Points
 
-Important: A technically correct solution should not receive full marks if the participant cannot explain what their code is doing.
+How effectively and correctly is Qiskit used?
 
-3. Code & Qiskit Implementation — 15 Points
+Judges will consider:
 
-Assess the quality and correctness of the submitted implementation.
+* Correct circuit construction
+* Appropriate use of gates
+* Correct measurement
+* Proper execution/simulation
+* Code quality and organization
 
-Look for:
+| Score | Description                                 |
+| ----: | ------------------------------------------- |
+| 13–15 | Correct, clean and effective implementation |
+| 10–12 | Good implementation with minor issues       |
+|   6–9 | Functional but basic                        |
+|   1–5 | Significant implementation issues           |
+|     0 | No meaningful Qiskit implementation         |
 
-Correct use of Qiskit
-Appropriate quantum gates
-Correct circuit construction
-Correct measurement
-Proper execution/simulation
-Readable and organized code
+---
 
-13–15: Correct, clean and effective implementation.
+## 4. Problem Solving & Experimentation — 10 Points
 
-10–12: Good implementation with minor issues.
+Does the submission demonstrate that the participant experimented and iterated on their solution?
 
-6–9: Functional but basic or somewhat messy.
+Evidence may include:
 
-1–5: Significant implementation problems.
+* Testing different approaches
+* Changing circuit configurations
+* Comparing results
+* Investigating unexpected outcomes
+* Debugging errors
+* Testing different numbers of shots
+* Testing on simulators or real quantum hardware
 
-0: No meaningful Qiskit implementation.
+| Score | Description                          |
+| ----: | ------------------------------------ |
+|  9–10 | Strong experimentation and iteration |
+|   7–8 | Good experimentation                 |
+|   4–6 | Some experimentation                 |
+|   1–3 | Limited experimentation              |
+|     0 | No evidence of experimentation       |
 
-4. Problem Solving & Experimentation — 10 Points
+---
 
-Since this is a learning-focused hackathon, reward participants who demonstrate that they actually experimented with their solution.
+## 5. Documentation & Explanation — 10 Points
 
-Evidence could include:
-
-Trying different circuit configurations
-Comparing results
-Testing different numbers of shots
-Investigating unexpected results
-Documenting failed attempts
-Testing on a simulator and/or real quantum hardware
-Iterating on their solution
-
-9–10: Strong evidence of experimentation and iteration.
-
-7–8: Good experimentation.
-
-4–6: Some experimentation.
-
-1–3: Very limited experimentation.
-
-0: No evidence of experimentation.
-
-5. Documentation & Explanation — 10 Points
-
-Since there won't be presentations, the submission itself needs to tell the story.
+Since there are no presentations, the submission should clearly explain the work.
 
 Participants should briefly explain:
 
-What did you build?
+* What they built
+* How their solution works
+* Which quantum concepts they used
+* What results they obtained
+* What they learned
 
-How does your quantum circuit work?
+| Score | Description                      |
+| ----: | -------------------------------- |
+|  9–10 | Clear, concise and accurate      |
+|   7–8 | Good explanation with minor gaps |
+|   4–6 | Basic explanation                |
+|   1–3 | Minimal explanation              |
+|     0 | No meaningful explanation        |
 
-Why did you choose this approach?
+---
 
-What results did you get?
+# 🚀 Stretch Challenge Bonus — +10 Points
 
-What did you learn?
-
-A short explanation in the notebook/README is enough. Don't require lengthy reports.
-
-9–10: Clear, concise and technically accurate.
-
-7–8: Good explanation with minor gaps.
-
-4–6: Basic explanation.
-
-1–3: Minimal explanation.
-
-0: No explanation.
-
-🚀 Stretch Challenge — +10 Bonus Points
-
-Participants can earn up to 10 additional points by going beyond the requirements of their assigned challenge.
+Participants can earn **up to 10 bonus points** by going beyond the core requirements.
 
 Examples include:
 
-Beginner Stretch
+* Adding new functionality
+* Running the solution on real quantum hardware
+* Investigating quantum noise
+* Exploring error mitigation
+* Comparing different approaches
+* Improving the efficiency of the solution
+* Creating an interactive interface
+* Exploring one of the deeper questions
+* Applying the concept to a new use case
 
-Adding additional functionality beyond the minimum requirements.
+| Bonus | Description           |
+| ----: | --------------------- |
+|  +1–3 | Small enhancement     |
+|  +4–6 | Meaningful extension  |
+|  +7–8 | Significant extension |
+| +9–10 | Exceptional extension |
 
-Intermediate Stretch
+The stretch challenge is **optional** and is not required to achieve a high score.
 
-Testing the solution under different conditions or with different parameters.
+---
 
-Advanced Stretch
+# 📌 Judging Principles
 
-Running the solution on real quantum hardware and investigating the differences between simulation and hardware.
+Judges should keep the following in mind:
 
-Creative Stretch
+### Beginner-Friendly
 
-Turning the solution into something more useful, interactive or interesting.
+Participants may have little or no prior quantum computing experience. Do not reward advanced knowledge simply because it is advanced.
 
-Research Stretch
+### Understanding Over Complexity
 
-Investigating a deeper question from the challenge and incorporating the findings into the submission.
+A simple solution that the participant clearly understands can score higher than a complex solution they cannot explain.
 
-+1–3: Small enhancement.
+### Learning & Experimentation
 
-+4–6: Meaningful extension.
+Evidence of curiosity, experimentation and improvement should be rewarded.
 
-+7–8: Significant extension demonstrating additional learning.
+### Working Solutions
 
-+9–10: Exceptional extension that substantially goes beyond the challenge.
+A functional solution should receive appropriate credit even if the implementation is not highly sophisticated.
+
+### AI Usage
+
+The use of AI tools is permitted and encouraged. Participants should be judged on their **understanding and implementation**, not on whether they wrote every line of code without assistance.
+
+---
+
+## 🏅 Final Score
+
+**Final Score = Base Score (100) + Stretch Bonus (up to 10)**
+
+**Maximum possible score: 110 points**
