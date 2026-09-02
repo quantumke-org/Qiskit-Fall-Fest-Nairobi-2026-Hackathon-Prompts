@@ -40,7 +40,7 @@ Choose or complete the challenge assigned to you:
 
 > The hackathon is **submission-based**. There will be no presentations.
 
-See the full [Judging Criteria](JUDGING_CRITERIA.md).
+See the full [Judging Criteria](Hackathon Prompt - Hackathon Prompt Judging Criteria .pdf).
 
 ---
 
